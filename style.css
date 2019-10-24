@@ -110,3 +110,11 @@ h2 {
   transform: rotate(360deg);
   transition: 0.5s;
 }
+
+.bottom-line {
+  display: flex;
+  width: 84%;
+  border: 2px lightslategrey dashed;
+  margin: auto;
+  justify-content: center;
+}
