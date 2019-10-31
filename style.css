@@ -124,6 +124,11 @@ h2 {
   text-shadow: black 2px 2px 5px;
 }
 
+.newest-trivia {
+  background-image: repeating-linear-gradient(slategrey, black);
+  background-blend-mode: overlay;
+}
+
 .calarts-jazz-2019 {
   background-image: url("http://scruffymusic.com/assets/CalartsJazz2019Album.jpg");
   background-size: 40vw;
@@ -131,9 +136,10 @@ h2 {
   opacity: 1.0;
 }
 
-.newest-trivia {
-  background-image: repeating-linear-gradient(slategrey, black);
-  background-blend-mode: overlay;
+.temp-clouds-film {
+  background-image: url("http://scruffymusic.com/assets/CloudsFilmBackground.png");
+  background-size: 40vw;
+  background-blend-mode: color-burn;
 }
 
 .bottom-line {
