@@ -130,7 +130,7 @@ h2 {
 }
 
 .calarts-jazz-2019 {
-  background-image: url("/assets/CalArtsJazz2019Album.jpg");
+  background-image: url("assets/CalartsJazz2019Album.jpg");
   background-size: 40vw;
   background-blend-mode: saturation;
   opacity: 1.0;
