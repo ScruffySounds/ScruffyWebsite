@@ -122,18 +122,18 @@ h2 {
   font-size: 2vmax;
   padding: 100% 100%;
   text-shadow: black 2px 2px 5px;
-  transition: color 0.2s;
-}
-
-.normal-link:hover {
-  color: lightslategrey;
 }
 
 .calarts-jazz-2019 {
-  background-image: url("assets/CalartsJazz2019Album.jpg");
+  background-image: url("http://scruffymusic.com/assets/CalartsJazz2019Album.jpg");
   background-size: 40vw;
   background-blend-mode: saturation;
   opacity: 1.0;
+}
+
+.newest-trivia {
+  background-image: repeating-linear-gradient(slategrey, black);
+  background-blend-mode: overlay;
 }
 
 .bottom-line {
