@@ -117,9 +117,9 @@ h2 {
   background-color: #00000000;
   font-family: "Rubik", sans-serif;
   line-height: 4vw;
-  letter-spacing: 0.8vw;
+  letter-spacing: 0.75vw;
   color: white;
-  font-size: 2vmax;
+  font-size: 2vw;
   padding: 100% 100%;
   text-shadow: black 2px 2px 5px;
 }
@@ -130,6 +130,7 @@ h2 {
 }
 
 .calarts-jazz-2019 {
+  background-color: #00000099;
   background-image: url("http://scruffymusic.com/assets/CalartsJazz2019Album.jpg");
   background-size: 40vw;
   background-blend-mode: saturation;
@@ -137,9 +138,10 @@ h2 {
 }
 
 .temp-clouds-film {
+  background-color: #00000063;
   background-image: url("http://scruffymusic.com/assets/CloudsFilmBackground.png");
   background-size: 40vw;
-  background-blend-mode: color-burn;
+  background-blend-mode: saturation;
 }
 
 .bottom-line {
