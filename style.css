@@ -32,6 +32,7 @@ body {
   background-color: white;
   padding: 1vw 2vw;
   margin: 1vw;
+  line-height: 6vw;
   border-radius: 100px;
   transition: color 0.2s;
   box-shadow: 2px 2px slategrey;
