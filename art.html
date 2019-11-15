@@ -10,6 +10,11 @@
       rel="stylesheet" />
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="art_style.css" />
+    <script
+  src="http://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  crossorigin="anonymous"></script>
+  <script src=script.js></script>
 </head>
 <body>
   <div>
@@ -33,48 +38,85 @@
   </h2>
   <div class="container">
     <div class="blender-art">
-        <button class="art-driving">
+        <p class=art-title>
           Driving Home
-        </button>
+          <img
+          class="image-3D home"
+          width=100vw
+          src="art_assets/Driving Home.png"
+        />
+        </p>>
     </div>
     <div class="blender-art">
-      <button class="art-bubble">
+      <p class="art-title">
           Procedural Bubble Shader
-      </button>
+          <img
+          class="image-3D bubble"
+          width=100vw
+          src="art_assets/Summer Bubbles.png"
+        />
+      </p>
     </div>
     <div class="blender-art">
-      <button class="art-car">
+      <p class="art-title">
           Out of Gas
-      </button>
+          <img
+            class="image-3D car"
+            width=100vw
+            src="art_assets/Car.png"
+          />
+      </p>
     </div>
     <div class="blender-art">
-      <button class="art-flame">
+      <p class="art-title">
           "Flame" Poster
-      </button>
+          <img
+            class="image-3D flame"
+            width=100vw
+            src="art_assets/Flame Poster.png"
+          />
+      </p>
     </div>
     <div class="blender-art">
-      <button class="art-saucer">
+      <p class="art-title">
           Flying Saucer
-      </button>
+          <img
+            class="image-3D saucer"
+            width=100vw
+            src="art_assets/Flying Saucer.png"
+          />
+      </p>
     </div>
     <div class="blender-art">
-      <button class="art-melon">
+      <p class="art-title">
           Procedural Watermelon Shader
-      </button>
+          <img
+            class="image-3D melon"
+            width=100vw
+            src="art_assets/Melon.png"
+          />
+      </p>
+    </div>
+    <div class="blender-art">
+      <p class="art-title">
+          "Dawnbringer" Sword Design
+          <img
+            class="image-3D sword"
+            width=100vw
+            src="art_assets/Dawnbringer Render.png"
+          />
+      </p>
     </div>
   </div>
   <div class="bottom-line">
-    </div>
-    <h2>
-      2D
-    </h2>
-  <div class="container">
-      <div class="blender-art">
-          <button class="art-aristo">
-              Aristocrab
-          </button>
-        </div>
   </div>
+  <h2>
+    2D
+  </h2>
 <div class="bottom-line">
   </div>
+<div class="lightbox hidden">
+  <div class="overlay"></div>
+  <div class="lightbox-image"></div>
+</div>
 </body>

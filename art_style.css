@@ -38,6 +38,7 @@ h2 {
   font-size: 2.5vw;
   text-align: center;
   margin: 0px;
+  padding-bottom: 0px;
 }
 
 .main-text {
@@ -47,6 +48,7 @@ h2 {
   color: white;
   margin: 2vw 20vw;
   padding: 1vw;
+  padding-top: 0px;
   text-align: center;
   border-bottom: 0.5vw white dashed;
   border-radius: 100px;
@@ -54,124 +56,26 @@ h2 {
 
 .container {
   display: flex;
-  justify-content: flex-start;
-  flex-wrap: nowrap;
-  overflow: scroll;
+  justify-content: center;
+  align-items: top;
+  flex-wrap: wrap;
   padding: 0px;
 }
 
 .art-title {
+  display: block;
+  padding: 2vw;
   font-family: "Rubik", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   color: white;
   text-shadow: 1px 1px black;
-  margin: 0px;
 }
 
-button {
-  font-family: "Rubik", sans-serif;
-  font-size: 16px;
-  color: white;
-  text-shadow: 1px 1px black;
-  margin: none;
-  transition: color, text-shadow, width, height, 0.3s ease-in-out;
-}
-
-.art-driving {
-  background: url(art_assets/Driving\ Home.png) no-repeat top center;
-  background-size: contain;
-  width: 48vw;
-  height: 27vw;
-}
-
-.art-driving:focus {
-  color: #ffffff00;
-  text-shadow: 10px 10px #00000000;
-  width: 96vw;
-  height: 54vw;
-}
-
-.art-bubble {
-  background: url("http://scruffymusic.com/art_assets/Summer\ Bubbles.png") no-repeat top center;
-  background-size: contain;
-  width: 25.6vw;
-  height: 25.6vw;
-}
-
-.art-bubble:focus {
-  color: #ffffff00;
-  text-shadow: 10px 10px #00000000;
-  width: 40vw;
-  height: 40vw;
-}
-
-.art-aristo {
-  background: url("http://scruffymusic.com/art_assets/Aristocrab.png") no-repeat top center;
-  background-size: contain;
-  width: 48vw;
-  height: 27vw;
-}
-
-.art-aristo:focus {
-  color: #ffffff00;
-  text-shadow: 10px 10px #00000000;
-  width: 96vw;
-  height: 54vw;
-}
-
-.art-car {
-  background: url("http://scruffymusic.com/art_assets/Car.png") no-repeat top center;
-  background-size: contain;
-  width: 48vw;
-  height: 30vw;
-}
-
-.art-car:focus {
-  color: #ffffff00;
-  text-shadow: 10px 10px #00000000;
-  width: 96vw;
-  height: 60vw;
-}
-
-.art-flame {
-  background: url("http://scruffymusic.com/art_assets/Flame\ Poster.png") no-repeat top center;
-  background-size: contain;
-  width: 18vw;
-  height: 27vw;
-}
-
-.art-flame:focus {
-  color: #ffffff00;
-  text-shadow: 10px 10px #00000000;
-  width: 36vw;
-  height: 54vw;
-}
-
-.art-saucer {
-  background: url("http://scruffymusic.com/art_assets/Flying\ Saucer.png") no-repeat top center;
-  background-size: contain;
-  width: 25.6vw;
-  height: 25.6vw;
-}
-
-.art-saucer:focus {
-  color: #ffffff00;
-  text-shadow: 10px 10px #00000000;
-  width: 40vw;
-  height: 40vw;
-}
-.art-melon {
-  background: url("http://scruffymusic.com/art_assets/Melon.png") no-repeat top center;
-  background-size: contain;
-  width: 48vw;
-  height: 27vw;
-}
-
-.art-melon:focus {
-  color: #ffffff00;
-  text-shadow: 10px 10px #00000000;
-  width: 72vw;
-  height: 40.5vw;
+.image-3D {
+  display: flex;
+  margin: auto;
+  border: white 2px solid;
+  border-radius: 15px;
 }
 
 .bottom-line {
@@ -180,4 +84,73 @@ button {
   border: 2px lightslategrey dashed;
   margin: 4vw;
   justify-content: center;
+}
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.overlay{
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0.25;
+  z-index: -1;
+}
+
+.lightbox-image {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home{
+  background-image: url(art_assets/Driving\ Home.png);
+}
+
+.bubble{
+  background-image: url(art_assets/Summer\ Bubbles.png);
+}
+
+.car{
+  background-image: url(art_assets/Car.png);
+}
+
+.flame{
+  background-image: url(art_assets/Flame\ Poster.png);
+}
+
+.saucer{
+  background-image: url(art_assets/Flying\ Saucer.png);
+}
+
+.melon{
+  background-image: url(art_assets/Melon.png);
+}
+
+.sword{
+  background-image: url(art_assets/Dawnbringer\ Render.png);
 }

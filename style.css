@@ -52,6 +52,11 @@ body {
   right: 0;
   z-index: -1;
   border: 2px slategrey dashed;
+  transition: transform 1s;
+}
+
+.bg-shape1.hover {
+  transform: rotate(90deg);
 }
   
 .bg-shape2 {
