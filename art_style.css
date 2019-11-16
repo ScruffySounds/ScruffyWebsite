@@ -35,7 +35,18 @@ h2 {
   text-decoration: none;
   font-family: "Rubik Mono One", sans-serif;
   color: white;
-  font-size: 2.5vw;
+  font-size: 30px;
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 0px;
+}
+
+h3 {
+  display: block;
+  text-decoration: none;
+  font-family: "Rubik Mono One", sans-serif;
+  color: lightslategrey;
+  font-size: 20px;
   text-align: center;
   margin: 0px;
   padding-bottom: 0px;
@@ -54,17 +65,26 @@ h2 {
   border-radius: 100px;
 }
 
+.sub-text {
+  display: block;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  color: lightslategray;
+  text-align: center; 
+}
+
 .container {
   display: flex;
   justify-content: center;
   align-items: top;
   flex-wrap: wrap;
-  padding: 0px;
+  padding-bottom: 0px;
 }
 
 .art-title {
   display: block;
   padding: 2vw;
+  text-align: center;
   font-family: "Rubik", sans-serif;
   font-size: 14px;
   color: white;
@@ -153,4 +173,52 @@ h2 {
 
 .sword{
   background-image: url(art_assets/Dawnbringer\ Render.png);
+}
+
+.peach{
+  background-image: url(art_assets/peach\ 3.png);
+}
+
+.grape{
+  background-image: url(art_assets/Procedural\ Grape\ Shader\ 2.png);
+}
+
+.potato{
+  background-image: url(art_assets/Potato\ Shader.png);
+}
+
+.crab{
+  background-image: url(art_assets/Aristocrab.png);
+}
+
+.drive{
+  background-image: url(art_assets/scarfy.png);
+}
+
+.lady{
+  background-image: url(art_assets/lady\ in\ profile.png);
+}
+
+.tac{
+  background-image: url(art_assets/TACScruffy.png);
+}
+
+.hitbox{
+  background-image: url(art_assets/Hitbox.png);
+}
+
+.mario-symphony-1{
+  background-image: url(art_assets/fortbeat3.png);
+}
+
+.mario-symphony-2{
+  background-image: url(art_assets/lavacave1.png);
+}
+
+.mario-symphony-3{
+  background-image: url(art_assets/Drum\ Summit.png);
+}
+
+.mario-symphony-4{
+  background-image: url(art_assets/Droning\ Desert.png);
 }
