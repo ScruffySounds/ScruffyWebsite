@@ -5,7 +5,7 @@ body {
 #title-image {
   display: block;
   margin: auto;
-  padding: 0%;
+  padding: 2vw;
   max-width: 50%;
   z-index: -12;
   position: relative;
