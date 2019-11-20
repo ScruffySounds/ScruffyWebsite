@@ -1,48 +1,38 @@
-$(document).ready(mainCode)
 
+var el = 'bg-shape',
+    lastPos = null,
+    timer = 0,
+    newPos;
 
-function mainCode() {
+function clear() {
+  lastPos = null
+}
+
+window.onscroll = checkScrollSpeed
+
+function checkScrollSpeed() {
+  newPos = window.scrollY
+  if ( lastPos != null ){ // && newPos < maxScroll 
+    var delta = newPos -  lastPos
+    // min/max values
+    if( delta > 45 ) delta = 45
+    else if( delta < -45 ) delta = -45
+
+    anime({
+        targets: '.bg-shape1',
+        rotate: {
+            value: delta,
+        }
+    })
 
     anime({
         targets: '.bg-shape2',
         rotate: {
-            value: 360,
-            duration: 10000,
-            easing: 'linear',
-        },
-        loop: true,
-        autoplay: 'false',
-    })
-    
-    anime({
-        targets: '.bg-shape1',
-        rotate: {
-            value: -360,
-            duration: 18000,
-            easing: 'linear',
-        },
-        loop: true,
-        autoplay: 'false',
-    })
-
-    $(document).on("mouseover", onMouseEnter)
-    
-    function onMouseEnter(event) {
-        var mouseTarget = event.target
-
-        var maxDistance = 500
-        if ( 
-            mouseTarget.className.includes('bg-shape')
-            ) {
-                var randomValue = Math.random()
-            anime({
-                targets: mouseTarget,
-                width: randomValue * maxDistance + 25,
-                height: randomValue * maxDistance + 25,
-                easing: "easeInOutQuart",
-                duration: 1000
-            })
+            value: delta * -1,
         }
-
-    }
+    })
+}
+  lastPos = newPos
+  timer && clearTimeout(timer)
+  timer = setTimeout(clear, 30)
 }
