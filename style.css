@@ -129,8 +129,21 @@ h2 {
 }
 
 .newest-trivia {
-  background-image: repeating-linear-gradient(slategrey, black);
-  background-blend-mode: overlay;
+  background-color: #71808f66;
+  background-image: url("/assets/brackets\ gradient.png");
+  background-size: 57vw;
+  background-position: center;
+  background-position-x: -12.5vw;
+  background-position-y: -4.6vw;
+  background-blend-mode: soft-light;
+}
+
+.trivia-padding {
+  font-size: 1.64vw;
+  letter-spacing: 0.5vw;
+  padding: 100% 120%;
+  line-height: 3vw;
+  text-shadow: #00000000 0px 0px;
 }
 
 .yaou-film {
