@@ -103,7 +103,7 @@ h3 {
   width: 84%;
   border: 2px lightslategrey dashed;
   margin: auto;
-  justify-content: center;
+  align-content: center;
 }
 
 .lightbox {
