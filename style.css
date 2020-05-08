@@ -4,6 +4,7 @@ body {
   
 .main-text {
   display: flex;
+  align-items: flex-start;
   font-family: "Rubik", sans-serif;
   font-size: 1.75vw;
   color: white;
@@ -25,8 +26,8 @@ body {
 
 #inline-doodle{
   display: block;
+  width: 12vw;
   margin: 0px 20px;
-  max-width: 25%
 }
   
 .top-links:link,
