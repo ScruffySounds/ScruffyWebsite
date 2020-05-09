@@ -30,15 +30,55 @@ body {
   color: lightslategrey;
 }
 
-h2 {
+h1 {
   display: block;
   text-decoration: none;
   font-family: "Rubik Mono One", sans-serif;
   color: white;
-  font-size: 30px;
+  font-size: 48px;
   text-align: center;
   margin: 0px;
   padding-bottom: 0px;
+}
+
+h2 {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Rubik Mono One", sans-serif;
+  color: white;
+  font-size: 3vw;
+  text-align: left;
+  margin: 0vw 4vw;
+  margin-right: 0px;
+  margin-top: 2vw;
+  padding: 1vw;
+  padding-bottom: 0vw;
+}
+
+.genre{
+  display: inline-block;
+  font-size: 1.5vw;
+  font-family: "Courgette", serif;
+  color: slategrey;
+}
+
+.original-genre{
+  color: mediumorchid;
+}
+
+.original{
+  color: orchid;
+}
+
+.series{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  align-content: space-around;
+  margin: 2vw 2vw;
+  margin-bottom: 2vw;
+  padding-top: 0vw;
+  flex-wrap: nowrap;
 }
 
 h3 {
@@ -46,31 +86,79 @@ h3 {
   text-decoration: none;
   font-family: "Rubik Mono One", sans-serif;
   color: lightslategrey;
-  font-size: 20px;
+  font-size: 2vw;
+  margin: 0px 0px 2vw 0vw;
+  margin-bottom: 0vw;
   text-align: center;
-  margin: 0px;
-  padding-bottom: 0px;
+}
+
+.links{
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  flex-shrink: 5;
+}
+
+.recording-link:link,
+.recording-link:visited{
+  color:slategrey;
+  text-decoration: none;
+  background-color: gainsboro;
+  font-size: calc(5px + 1vw);
+  padding: 0.86vw 1.5vw;
+  margin: 12px 0.5vw;
+  border-radius: 100px;
+  transition: color 0.2s;
+  box-shadow: 2px 2px slategrey;
+}
+
+.original-link:link,
+.original-link:visited{
+  color: mediumorchid;
+  background-color:plum;
+  box-shadow: 2px 2px mediumorchid;
+}
+
+.header{
+  display: block;
+  align-items: center;
+  margin: 0% 10vw;
+  border-bottom: 0.5vw white dashed;
+  border-radius: 50px;
 }
 
 .main-text {
-  display: inline-block;
   font-family: "Rubik", sans-serif;
   font-size: 2vw;
   color: white;
-  margin: 2vw 20vw;
-  padding: 1vw;
+  margin: 2vw 0vw;
   padding-top: 0px;
   text-align: center;
-  border-bottom: 0.5vw white dashed;
-  border-radius: 50px;
+}
+
+.special-text {
+  font-family: "Rubik", sans-serif;
+  font-size: 2vw;
+  color: orchid;
+  margin: 2vw 0vw;
+  padding-top: 0px;
+  text-align: center;
 }
 
 .sub-text {
   display: block;
   font-family: "Rubik", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: lightslategray;
-  text-align: center; 
+  text-align: left; 
+  margin: 0vw 4vw;
+  padding: 0.25vw;
+  padding-left: 1vw;
+}
+
+.sub-original{
+  color: mediumorchid;
+
 }
 
 .container {
@@ -145,80 +233,4 @@ h3 {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.home{
-  background-image: url(art_assets/Driving\ Home.png);
-}
-
-.bubble{
-  background-image: url(art_assets/Summer\ Bubbles.png);
-}
-
-.car{
-  background-image: url(art_assets/Car.png);
-}
-
-.flame{
-  background-image: url(art_assets/Flame\ Poster.png);
-}
-
-.saucer{
-  background-image: url(art_assets/Flying\ Saucer.png);
-}
-
-.melon{
-  background-image: url(art_assets/Melon.png);
-}
-
-.sword{
-  background-image: url(art_assets/Dawnbringer\ Render.png);
-}
-
-.peach{
-  background-image: url(art_assets/peach\ 3.png);
-}
-
-.grape{
-  background-image: url(art_assets/Procedural\ Grape\ Shader\ 2.png);
-}
-
-.potato{
-  background-image: url(art_assets/Potato\ Shader.png);
-}
-
-.crab{
-  background-image: url(art_assets/Aristocrab.png);
-}
-
-.drive{
-  background-image: url(art_assets/scarfy.png);
-}
-
-.lady{
-  background-image: url(art_assets/lady\ in\ profile.png);
-}
-
-.tac{
-  background-image: url(art_assets/TACScruffy.png);
-}
-
-.hitbox{
-  background-image: url(art_assets/Hitbox.png);
-}
-
-.mario-symphony-1{
-  background-image: url(art_assets/fortbeat3.png);
-}
-
-.mario-symphony-2{
-  background-image: url(art_assets/lavacave1.png);
-}
-
-.mario-symphony-3{
-  background-image: url(art_assets/Drum\ Summit.png);
-}
-
-.mario-symphony-4{
-  background-image: url(art_assets/Droning\ Desert.png);
 }
