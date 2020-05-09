@@ -102,6 +102,7 @@ h3 {
 .recording-link:link,
 .recording-link:visited{
   color:slategrey;
+  font-family: "Rubik", sans-serif;
   text-decoration: none;
   background-color: gainsboro;
   font-size: calc(5px + 1vw);
