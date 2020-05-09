@@ -136,7 +136,7 @@ h2 {
 }
 
 .newest-trivia {
-  background-color: #71808f66;
+  background-color: #423574ff;
   background-image: url("/assets/brackets\ gradient.png");
   background-size: 57vw;
   background-position: center;
@@ -147,8 +147,8 @@ h2 {
 
 .trivia-padding {
   font-size: 1.64vw;
-  letter-spacing: 0.5vw;
-  padding: 100% 120%;
+  letter-spacing: 0.25vw;
+  padding: 80% 120%;
   line-height: 3vw;
   text-shadow: #00000000 0px 0px;
 }
@@ -169,11 +169,11 @@ h2 {
   opacity: 1.0;
 }
 
-.temp-clouds-film {
+.temp-right-mid {
   background-color: #00000063;
-  background-image: url("http://scruffymusic.com/assets/CloudsFilmBackground.png");
+  background-image: url("assets/SkyColor1.png");
   background-size: cover;
-  background-blend-mode: soft-light;
+  background-blend-mode: overlay;
 }
 
 .temp-pint-film {
