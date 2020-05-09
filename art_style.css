@@ -35,7 +35,7 @@ h2 {
   text-decoration: none;
   font-family: "Rubik Mono One", sans-serif;
   color: white;
-  font-size: 30px;
+  font-size: 48px;
   text-align: center;
   margin: 0px;
   padding-bottom: 0px;
@@ -205,6 +205,10 @@ h3 {
 
 .hitbox{
   background-image: url(art_assets/Hitbox.png);
+}
+
+.grant{
+  background-image: url(art_assets/3b1b.png);
 }
 
 .mario-symphony-1{
