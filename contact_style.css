@@ -4,6 +4,7 @@ body {
 
 label{
   color: white;
+  font-family: "Rubik", sans-serif;
   margin: 12px 0px 4px 0px;
 }
 
@@ -51,6 +52,7 @@ label{
 #my-form-button,
 #my-form-button:visited{
   color: black;
+  background-color: white;
   font-family: "Rubik Mono One", sans-serif;
   font-size: 1.5vw;
   border-radius: 50px;
