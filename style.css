@@ -73,7 +73,7 @@ body {
   filter: opacity(100%);
 }
 
-.icon-link:before{
+.icon-link:after{
   content: "";
   position: absolute;
   top: 0; left: 0;
@@ -84,20 +84,20 @@ body {
   transition: background-color, 0.2s;
 }
 
-.icon-link:hover:before{
+.icon-link:hover:after{
   background-color: slategrey;
 }
 
 .youtube{
-  background-image: url("http://scruffymusic.com/assets/YouTube.png");
+  background-image: url("assets/YouTube.png");
 }
 
 .twitter{
-  background-image: url("http://scruffymusic.com/assets/Twitter.png");
+  background-image: url("assets/Twitter.png");
 }
 
 .soundcloud{
-  background-image: url("http://scruffymusic.com/assets/SoundCloud.png");
+  background-image: url("assets/SoundCloud.png");
   background-size: 90%;
 }
 
