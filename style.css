@@ -2,19 +2,6 @@ body {
   background-color: black;
 }
   
-.main-text {
-  display: flex;
-  align-items: flex-start;
-  font-family: "Rubik", sans-serif;
-  font-size: 1.75vw;
-  color: white;
-  margin: 2vw 18vw;
-  padding: 1vw 4vw;
-  text-align: left;
-  border-bottom: 0.5vw white dashed;
-  border-radius: 100px;
-}
-  
 #title-image {
   display: block;
   margin: auto;
@@ -22,12 +9,6 @@ body {
   max-width: 50%;
   z-index: -12;
   position: relative;
-}
-
-#inline-doodle{
-  display: block;
-  width: 12vw;
-  margin: 0px 20px;
 }
   
 #link-holder{
@@ -57,7 +38,7 @@ body {
 
 .link-icon-holder{
   display: inline-block;
-  margin: 0.25vw 0.0vw;
+  margin: 0.25vw 0.0vw 2.0vw 0.0vw;
   padding: 0vw;
 }
 
