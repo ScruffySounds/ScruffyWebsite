@@ -1,0 +1,67 @@
+body {
+  background-color: black;
+}
+
+.top-links:link,
+.top-links:visited{
+  font-size: 1.5vw;
+  text-decoration: none;
+  font-family: "Rubik Mono One", sans-serif;
+  color: black;
+  position: fixed;
+  background-color: white;
+  padding: 1vw 2vw;
+  margin: 4vw 2vw;
+  border-radius: 100px;
+  transition: color 0.2s;
+  box-shadow: 2px 2px slategrey;
+}
+  
+.top-links:hover {
+  color: lightslategrey;
+}
+
+h2 {
+  display: block;
+  text-decoration: none;
+  font-family: "Rubik Mono One", sans-serif;
+  color: white;
+  font-size: 36px;
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 0px;
+}
+  
+.main-text {
+  display: flex;
+  align-items: flex-start;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  color: white;
+  margin: 2vw 10vw;
+  padding: 1vw 4vw;
+  text-align: left;
+}
+  
+#title-image {
+  display: block;
+  margin: auto;
+  padding: 0vw;
+  max-width: 50%;
+  z-index: -12;
+  position: relative;
+}
+
+#inline-doodle{
+  display: block;
+  width: 12vw;
+  margin: 0px 20px;
+}
+
+.bottom-line {
+  display: flex;
+  width: 84%;
+  border: 2px lightslategrey dashed;
+  margin: auto;
+  justify-content: center;
+}
