@@ -86,15 +86,15 @@ h3 {
   text-decoration: none;
   font-family: "Rubik Mono One", sans-serif;
   color: lightslategrey;
-  font-size: 2vw;
-  margin: 0px 0px;
+  font-size: 3vw;
+  margin: 6px 0px;
   text-align: center;
 }
 
 .list{
   display:flex;
   flex-wrap: wrap;
-  margin: 2vw 0vw;
+  margin: 1vw 0vw;
   flex-shrink: 5;
 }
 
