@@ -83,7 +83,7 @@ h3 {
 
 .art-title {
   display: block;
-  padding: 2vw;
+  padding: 1vw;
   text-align: center;
   font-family: "Rubik", sans-serif;
   font-size: 14px;
@@ -173,6 +173,10 @@ h3 {
 
 .sword{
   background-image: url(art_assets/Dawnbringer\ Render.png);
+}
+
+.shiva{
+  background-image: url(art_assets/The\ Shiva\ 2.png);
 }
 
 .peach{
