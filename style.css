@@ -83,6 +83,10 @@ body {
   background-image: url("assets/BandCamp.png");
 }
 
+.patreon{
+  background-image: url("assets/Patreon.png");
+}
+
   
 .bg-shape1 {
   display: inline-block;
