@@ -175,6 +175,7 @@ h2 {
 
 .latest-video {
   background-color: #525375ff;
+  background-color: rgb(117, 40, 30);
   background-image: url("/assets/brackets\ gradient.png");
   background-size: 57vw;
   background-position: center;
@@ -186,9 +187,9 @@ h2 {
 .trivia-padding {
   font-size: 1.64vw;
   letter-spacing: 0.25vw;
-  padding: 80% 120%;
+  padding: 80% 110%;
   line-height: 3vw;
-  text-shadow: #00000000 0px 0px;
+  text-shadow: black 2px 2px 5px;
 }
 
 .soundtrack-news {
