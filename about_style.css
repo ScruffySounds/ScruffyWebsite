@@ -38,7 +38,7 @@ h2 {
   font-family: "Rubik", sans-serif;
   font-size: 1em;
   color: white;
-  margin: 2vw 10vw;
+  margin: 2vw 1vw;
   padding: 1vw 4vw;
   text-align: left;
 }
@@ -54,7 +54,7 @@ h2 {
 
 #inline-doodle{
   display: block;
-  width: 16vw;
+  width: 12vw;
   margin: 0px 20px;
 }
 
