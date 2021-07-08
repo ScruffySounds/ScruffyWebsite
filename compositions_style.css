@@ -149,7 +149,7 @@ h3 {
 .sub-text {
   display: block;
   font-family: "Rubik", sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   color: lightslategray;
   text-align: left; 
   margin: 0vw 4vw;
