@@ -179,6 +179,10 @@ h3 {
   background-image: url(art_assets/The\ Shiva\ 2.png);
 }
 
+.clocktower{
+  background-image: url(art_assets/Clocktower.gif);
+}
+
 .peach{
   background-image: url(art_assets/peach\ 3.png);
 }
@@ -225,6 +229,14 @@ h3 {
 
 .kass{
   background-image: url(art_assets/Kass.png);
+}
+
+.mountain{
+  background-image: url(art_assets/DeathMountainConcept.png);
+}
+
+.tektite{
+  background-image: url(art_assets/Tektite.png);
 }
 
 .mario-symphony-1{

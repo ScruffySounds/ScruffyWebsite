@@ -59,11 +59,11 @@ h2 {
   display: inline-block;
   font-size: 1.5vw;
   font-family: "Courgette", serif;
-  color: slategrey;
+  color: rgb(56, 70, 83);
 }
 
 .original-genre{
-  color: mediumorchid;
+  color: rebeccapurple;
 }
 
 .original{
@@ -101,7 +101,7 @@ h3 {
 
 .recording-link:link,
 .recording-link:visited{
-  color:slategrey;
+  color:rgb(54, 59, 65);
   font-family: "Rubik", sans-serif;
   text-decoration: none;
   background-color: gainsboro;
@@ -115,7 +115,7 @@ h3 {
 
 .original-link:link,
 .original-link:visited{
-  color: mediumorchid;
+  color: rebeccapurple;
   background-color:plum;
   box-shadow: 2px 2px mediumorchid;
 }

@@ -175,7 +175,7 @@ h2 {
 
 .latest-video {
   background-color: #525375ff;
-  background-color: rgb(55, 53, 78);
+  background-color: rgb(38, 50, 104);
   background-image: url("/assets/brackets\ gradient.png");
   background-size: 57vw;
   background-position: center;
@@ -194,17 +194,18 @@ h2 {
 
 .soundtrack-news {
   background-color: #00000099;
-  background-image: url("http://scruffymusic.com/assets/tiltQuest.png");
+  background-image: url("assets/velcrows.png");
   background-size: cover;
   background-position-x: -20px;
   background-blend-mode: multiply;
 }
 
-.calarts-jazz-2019 {
-  background-color: #00000099;
-  background-image: url("http://scruffymusic.com/assets/CalartsJazz2019Album.jpg");
+.temp-music-news {
+  background-image: url("assets/ACTRCover.png");
   background-size: 40vw;
-  background-blend-mode: saturation;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
   opacity: 1.0;
 }
 
@@ -216,10 +217,11 @@ h2 {
 }
 
 .temp-pint-film {
-  background-image: url("http://scruffymusic.com/assets/PintFilmBackground.png");
+  background-color: #00458863;
+  background-image: url("assets/Abzu.png");
   background-size: cover;
   background-position: center;
-  background-blend-mode: screen;
+  background-blend-mode: multiply;
 }
 
 .botw-video {

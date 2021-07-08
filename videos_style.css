@@ -99,8 +99,8 @@ h3 {
 }
 
 .vid{
-  margin:0.5vw 5vw;
-  max-width: 75%;
+  margin:0.75vw 5vw;
+  max-width: 82%;
 }
 
 .vid-link:link,
@@ -130,7 +130,7 @@ h3 {
 .header{
   display: block;
   align-items: center;
-  margin: 0% 10vw;
+  margin: 0% 27vw;
   border-bottom: 0.5vw white dashed;
   border-radius: 50px;
 }
@@ -183,6 +183,14 @@ h3 {
   margin: auto;
   border: white 2px solid;
   border-radius: 15px;
+}
+
+.style-shortfilm *{
+  color: mediumorchid;
+}
+
+.style-collab *{
+  color: yellow;
 }
 
 .bottom-line {
