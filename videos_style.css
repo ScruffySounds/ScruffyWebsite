@@ -48,9 +48,9 @@ h2 {
   color: white;
   font-size: 3vw;
   text-align: left;
-  margin: 0vw 4vw;
+  margin: 0vw 0vw;
   margin-right: 0px;
-  margin-top: 2vw;
+  margin-top: 0vw;
   padding: 1vw;
   padding-bottom: 0vw;
 }
@@ -58,6 +58,7 @@ h2 {
 .genre{
   display: inline-block;
   font-size: 1.5vw;
+  padding: 2vw;
   font-family: "Courgette", serif;
   color: slategrey;
 }

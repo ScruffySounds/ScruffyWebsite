@@ -41,12 +41,18 @@ h1 {
   padding-bottom: 0px;
 }
 
+span{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
 h2 {
   display: inline-block;
   text-decoration: none;
   font-family: "Rubik Mono One", sans-serif;
   color: white;
-  font-size: 3vw;
+  font-size: 2em;
   text-align: left;
   margin: 0vw 4vw;
   margin-right: 0px;
@@ -58,6 +64,7 @@ h2 {
 .genre{
   display: inline-block;
   font-size: 1.5vw;
+  margin: 3vw;
   font-family: "Courgette", serif;
   color: rgb(56, 70, 83);
 }
@@ -130,7 +137,7 @@ h3 {
 
 .main-text {
   font-family: "Rubik", sans-serif;
-  font-size: 2vw;
+  font-size: 1.5vw;
   color: white;
   margin: 2vw 0vw;
   padding-top: 0px;
@@ -139,7 +146,7 @@ h3 {
 
 .special-text {
   font-family: "Rubik", sans-serif;
-  font-size: 2vw;
+  font-size: 1.5vw;
   color: orchid;
   margin: 2vw 0vw;
   padding-top: 0px;
