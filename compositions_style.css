@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Scruffish';
+  src: url('webfontkit/Scruffish.ttf');
+}
+
 body {
     background-color: black;
   }
@@ -50,13 +55,14 @@ span{
 h2 {
   display: inline-block;
   text-decoration: none;
-  font-family: "Rubik Mono One", sans-serif;
+  font-family: "Scruffish", sans-serif;
   color: white;
-  font-size: 3vw;
+  letter-spacing: 0.2vw;
+  font-size: 6vw;
   text-align: left;
-  margin: 0vw 4vw;
+  margin: 0vw 2vw;
   margin-right: 0px;
-  margin-top: 2vw;
+  margin-top: 1vw;
   padding: 1vw;
   padding-bottom: 0vw;
 }
@@ -91,9 +97,9 @@ h2 {
 h3 {
   display: block;
   text-decoration: none;
-  font-family: "Rubik Mono One", sans-serif;
+  font-family: "Scruffish", sans-serif;
   color: lightslategrey;
-  font-size: 2vw;
+  font-size: 3vw;
   margin: 0px 0px 2vw 0vw;
   margin-bottom: 0vw;
   text-align: center;
