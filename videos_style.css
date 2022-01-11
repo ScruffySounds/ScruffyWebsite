@@ -40,7 +40,7 @@ h1 {
   text-decoration: none;
   font-family: "Rubik Mono One", sans-serif;
   color: white;
-  font-size: 48px;
+  font-size: 5vh;
   text-align: center;
   margin: 0px;
   padding-bottom: 0px;
@@ -51,7 +51,7 @@ h2 {
   text-decoration: none;
   font-family: "Scruffish", sans-serif;
   color: white;
-  font-size: 6vw;
+  font-size: 6vh;
   text-align: left;
   margin: 0vw 4vw;
   margin-right: 0px;
@@ -92,7 +92,7 @@ h3 {
   text-decoration: none;
   font-family: "Rubik Mono One", sans-serif;
   color: lightslategrey;
-  font-size: 3vw;
+  font-size: calc(1vw + 1.5em);
   margin: 6px 0px;
   text-align: center;
 }
@@ -133,6 +133,16 @@ h3 {
   box-shadow: 2px 2px mediumorchid;
 }
 
+.supplement-image{
+  display:block;
+  margin: auto;
+  width: 80%;
+  background-color: gainsboro;
+  padding: 0.86vw 1.5vw;
+  border-radius: 6px;
+  box-shadow: 2px 2px slategrey;
+}
+
 .header{
   display: block;
   align-items: center;
@@ -143,7 +153,7 @@ h3 {
 
 .main-text {
   font-family: "Rubik", sans-serif;
-  font-size: 1.5vw;
+  font-size: calc(1vw + 0.5em);
   color: white;
   margin: 2vw 0vw;
   padding-top: 0px;
@@ -153,7 +163,7 @@ h3 {
 .sub-text {
   display: block;
   font-family: "Rubik", sans-serif;
-  font-size: 16px;
+  font-size: calc(1vw + 0.5em);
   color: lightslategray;
   text-align: left; 
   margin: 0.25vw 0vw;
