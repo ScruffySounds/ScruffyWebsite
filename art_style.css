@@ -60,7 +60,7 @@ h3 {
 .main-text {
   display: inline-block;
   font-family: "Rubik", sans-serif;
-  font-size: 0.75em;
+  font-size: 1em;
   color: white;
   margin: 2vw 20vw;
   padding: 1vw;
@@ -186,6 +186,10 @@ h3 {
 
 .clocktower{
   background-image: url(art_assets/Clocktower.gif);
+}
+
+.kart{
+  background-image: url(art_assets/CPU_Kart.png);
 }
 
 .peach{
