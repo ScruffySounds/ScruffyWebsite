@@ -57,17 +57,21 @@ h3 {
   padding-bottom: 0px;
 }
 
-.main-text {
-  display: inline-block;
-  font-family: "Rubik", sans-serif;
-  font-size: 1em;
-  color: white;
-  margin: 2vw 20vw;
-  padding: 1vw;
-  padding-top: 0px;
-  text-align: center;
+.header{
+  display: block;
+  align-items: center;
+  margin: 0% 27vw;
   border-bottom: 0.5vw white dashed;
   border-radius: 50px;
+}
+
+.main-text {
+  font-family: "Rubik", sans-serif;
+  font-size: calc(1vw + 0.5em);
+  color: white;
+  margin: 2vw 0vw;
+  padding-top: 0px;
+  text-align: center;
 }
 
 .sub-text {
@@ -189,7 +193,7 @@ h3 {
 }
 
 .kart{
-  background-image: url(art_assets/CPU_Kart.png);
+  background-image: url(art_assets/Cpu_Kart.png);
 }
 
 .peach{
