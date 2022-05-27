@@ -84,6 +84,9 @@ function mainCode(){
             case "tektite":
               text.innerHTML="A scene from the game Outer Wilds: Tektite the Hearthian comes across a huge anomalous seed that crash-landed from another planet."
               break;
+            case "mariowilds":
+              text.innerHTML="A scene from Outer Wilds: Echoes of the Eye, in the ring world called the Stranger. Except the protagonist is replaced with Mario, in a Satellaview spacesuit with trusty FLUDD on his back."
+              break;
             case "mario-symphony-1":
               text.innerHTML="Beatburg Fortress, a futuristic neon metropolis of electronic beats."
               break;

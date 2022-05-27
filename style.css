@@ -198,9 +198,9 @@ h2 {
 
 .soundtrack-news {
   background-color: #00000099;
-  background-image: url("assets/velcrows.png");
+  background-image: url("assets/topicalwildsCover.png");
   background-size: cover;
-  background-position-x: -20px;
+  background-position: center;
   background-blend-mode: multiply;
 }
 
