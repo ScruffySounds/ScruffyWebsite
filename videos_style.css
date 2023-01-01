@@ -166,7 +166,7 @@ h3 {
   font-size: calc(1vw + 0.5em);
   color: lightslategray;
   text-align: left; 
-  margin: 0.25vw 0vw;
+  margin: 1vw 1vw 0.25vw;
   padding: 0.25vw;
   padding-left: 0.25vw;
 }
