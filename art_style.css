@@ -209,6 +209,10 @@ h3 {
   background-image: url(art_assets/Cpu_Kart.png);
 }
 
+.dof{
+  background-image: url(art_assets/DOF.gif);
+}
+
 .peach{
   background-image: url(art_assets/peach\ 3.png);
 }

@@ -36,6 +36,9 @@ function mainCode(){
             case "kart":
               text.innerHTML="A 3D model of a toy kart made of lathed wood, which I made for a video about Mario Kart's sound design. Featuring an Arduino-style microchip!"
               break;
+            case "dof":
+              text.innerHTML="A stylistic 3D effect in which, as the camera's focal distance changes, 3D models in focus get more polygons, and 3D objects out of focus decimate into fewer polygons."
+              break;
             case "bubble":
               text.innerHTML="An exaggerated random color/transparency shader to mimic the thin-film iridescence of soap bubbles."
               break;
