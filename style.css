@@ -198,10 +198,10 @@ h2 {
 
 .soundtrack-news {
   background-color: #00000099;
-  background-image: url("assets/topicalwildsCover.png");
+  background-image: url("assets/GaryTheDuckTitle.png");
   background-size: cover;
   background-position: center;
-  background-blend-mode: multiply;
+  background-blend-mode: screen;
 }
 
 .temp-music-news {
