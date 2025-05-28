@@ -42,6 +42,7 @@ h2 {
   color: white;
   font-size: 5vh;
   text-align: center;
+  padding-top: 1vw;
   margin: 0px;
   padding-bottom: 0px;
 }
@@ -51,7 +52,7 @@ h3 {
   text-decoration: none;
   font-family: "Scruffish", sans-serif;
   color: lightslategrey;
-  font-size: 30px;
+  font-size: calc(2vw + 24px);
   text-align: center;
   margin: 0px;
   padding-bottom: 0px;
@@ -120,7 +121,7 @@ h3 {
   top: 0;
   left: 0;
   width: 100%;
-  height: 85%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -147,8 +148,8 @@ h3 {
 
 .lightbox-image {
   display: block;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   justify-content: center;
   align-items: center;
   margin: 1vw;
@@ -167,6 +168,10 @@ h3 {
   padding: 16px;
   background-color: black;
   border-radius: 16px;
+}
+
+.OWModel{
+  background-image: url(art_assets/outerWildsSystem.jpg);
 }
 
 .home{
@@ -209,8 +214,28 @@ h3 {
   background-image: url(art_assets/Cpu_Kart.png);
 }
 
+.coindy{
+  background-image: url(art_assets/coincandy.png);
+}
+
 .dof{
   background-image: url(art_assets/DOF.gif);
+}
+
+.truchet1{
+  background-image: url(art_assets/truchet1.png);
+}
+
+.truchet2{
+  background-image: url(art_assets/truchet2.png);
+}
+
+.truchet3{
+  background-image: url(art_assets/truchet3.png);
+}
+
+.truchet4{
+  background-image: url(art_assets/truchet4.png);
 }
 
 .peach{
@@ -227,22 +252,6 @@ h3 {
 
 .crab{
   background-image: url(art_assets/Aristocrab.png);
-}
-
-.drive{
-  background-image: url(art_assets/scarfy.png);
-}
-
-.lady{
-  background-image: url(art_assets/lady\ in\ profile.png);
-}
-
-.tac{
-  background-image: url(art_assets/TACScruffy.png);
-}
-
-.hitbox{
-  background-image: url(art_assets/Hitbox.png);
 }
 
 .grant{
@@ -271,6 +280,14 @@ h3 {
 
 .mariowilds{
   background-image: url(art_assets/mariowilds.png);
+}
+
+.nomaizonai{
+  background-image: url(art_assets/NomaiZonaiSmall.png);
+}
+
+.ff7{
+  background-image: url(art_assets/ff7.png);
 }
 
 .mario-symphony-1{

@@ -83,8 +83,8 @@ body {
   background-image: url("assets/YouTube.png");
 }
 
-.twitter{
-  background-image: url("assets/Twitter.png");
+.bluesky{
+  background-image: url("assets/Bluesky.png");
 }
 
 .bandcamp{
@@ -169,7 +169,7 @@ h2 {
 
 .normal-link {
   cursor: pointer;
-  margin: -100%;
+  margin: -96%;
   text-decoration: none;
   background-color: #00000000;
   font-family: "Scruffish", "Rubik", sans-serif;
@@ -177,14 +177,13 @@ h2 {
   font-size: 2.75vw;
   letter-spacing: 0.25vw;
   line-height: 4vw;
-  padding: 100% 100%;
+  padding: 100%;
   text-shadow: black 2px 2px 5px;
 }
 
 .latest-video {
-  background-color: #525375ff;
   background-color: rgb(38, 50, 104);
-  background-image: url("/assets/brackets\ gradient.png");
+  background-image: url("assets/bracketsGradient.png");
   background-size: 57vw;
   background-position: center;
   background-position-x: -12.5vw;
@@ -214,10 +213,11 @@ h2 {
 }
 
 .temp-right-mid {
-  background-color: #00000063;
+  background-color: #A0B0C063;
   background-image: url("assets/SkyColor1.png");
   background-size: cover;
-  background-blend-mode: overlay;
+  filter: grayscale();
+  background-blend-mode: multiply;
 }
 
 .temp-pint-film {
@@ -229,11 +229,11 @@ h2 {
 }
 
 .botw-video {
-  background-color: #00458863;
-  background-image: url("assets/BOTWBackground.png");
+  background-color: #00000063;
+  background-image: url("assets/RascalBackground.png");
   background-size: cover;
   background-position: center;
-  background-blend-mode: multiply;
+  background-blend-mode: screen;
 }
 
 .bottom-line {
